@@ -1,0 +1,45 @@
+25.04.2015 10:21:20 [WARNING] No Rumblers found
+25.04.2015 10:21:30 [INFO] Connect to: 141.24.14.185
+25.04.2015 10:21:30 [INFO] Sent: Change resolution to 0.
+25.04.2015 10:21:30 [INFO] Resolution settings were sent
+25.04.2015 10:21:38 [INFO] Sent: Change quality to 11.
+25.04.2015 10:21:38 [INFO] Quality has been changed
+25.04.2015 10:21:58 [INFO] Sound signal was sent
+25.04.2015 10:21:59 [INFO] Sound signal was sent
+25.04.2015 10:22:17 [INFO] Sent: Change quality to 12.
+25.04.2015 10:22:17 [INFO] Quality has been changed
+25.04.2015 10:22:17 [INFO] Sent: Change quality to 13.
+25.04.2015 10:22:17 [INFO] Quality has been changed
+25.04.2015 10:22:18 [INFO] Sent: Change quality to 14.
+25.04.2015 10:22:18 [INFO] Quality has been changed
+25.04.2015 10:22:20 [INFO] Sound signal was sent
+25.04.2015 10:22:20 [INFO] Sound signal was sent
+25.04.2015 10:22:49 [INFO] Sent: Change quality to 15.
+25.04.2015 10:22:49 [INFO] Quality has been changed
+25.04.2015 10:22:49 [INFO] Sent: Change quality to 16.
+25.04.2015 10:22:49 [INFO] Quality has been changed
+25.04.2015 10:22:49 [INFO] Sent: Change quality to 17.
+25.04.2015 10:22:49 [INFO] Quality has been changed
+25.04.2015 10:22:51 [INFO] Sent: Change quality to 43.
+25.04.2015 10:22:51 [INFO] Quality has been changed
+25.04.2015 10:22:53 [INFO] Sent: Change quality to 45.
+25.04.2015 10:22:53 [INFO] Quality has been changed
+25.04.2015 10:23:00 [INFO] Sound signal was sent
+25.04.2015 10:23:05 [INFO] Sent: Switch camera light on.
+25.04.2015 10:23:05 [INFO] Camera light was switched
+25.04.2015 10:23:06 [INFO] Sent: Switch camera light off.
+25.04.2015 10:23:06 [INFO] Camera light was switched
+25.04.2015 10:23:06 [INFO] Sent: Switch camera light on.
+25.04.2015 10:23:06 [INFO] Camera light was switched
+25.04.2015 10:23:06 [INFO] Sent: Switch camera light off.
+25.04.2015 10:23:06 [INFO] Camera light was switched
+25.04.2015 10:23:22 [INFO] Sound signal was sent
+25.04.2015 10:23:23 [INFO] Sound signal was sent
+25.04.2015 10:27:38 [ERROR] Timeout. Please reconnect
+25.04.2015 10:29:56 [INFO] Connect to: 141.24.14.185
+25.04.2015 10:29:56 [INFO] Sent: Change resolution to 0.
+25.04.2015 10:29:56 [INFO] Resolution settings were sent
+25.04.2015 10:30:37 [INFO] Connect to: 141.24.14.185
+25.04.2015 10:30:37 [INFO] Sent: Change resolution to 0.
+25.04.2015 10:30:37 [INFO] Resolution settings were sent
+25.04.2015 10:30:44 [INFO] CarDuinoDroid closed.

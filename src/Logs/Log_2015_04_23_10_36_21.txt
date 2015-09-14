@@ -1,0 +1,12 @@
+23.04.2015 10:36:21 [WARNING] No Rumblers found
+23.04.2015 10:36:24 [INFO] Sent: Switch camera light on.
+23.04.2015 10:36:24 [WARNING] Camera light wasn't switched
+23.04.2015 10:36:28 [INFO] Sent: Switch camera light off.
+23.04.2015 10:36:28 [WARNING] Camera light wasn't switched
+23.04.2015 10:36:30 [INFO] Sent: Switch camera light on.
+23.04.2015 10:36:30 [WARNING] Camera light wasn't switched
+23.04.2015 10:36:32 [INFO] Sent: Switch camera light off.
+23.04.2015 10:36:32 [WARNING] Camera light wasn't switched
+23.04.2015 10:36:34 [INFO] Sent: Switch camera light on.
+23.04.2015 10:36:34 [WARNING] Camera light wasn't switched
+23.04.2015 10:37:08 [INFO] CarDuinoDroid closed.

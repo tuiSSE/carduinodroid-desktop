@@ -5,11 +5,14 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+import Model.Log.ErrorState;
+
 /** 
  * Creates a google-maps link with the gps coordinates
  * 
  * @author Sven Haueisen
- * @version 18.06.2012
+ * @author Michael S
+ * @version 1.0
  */
 
 public class GPS_Map
@@ -62,7 +65,7 @@ public class GPS_Map
 	
 		try {
 			Desktop.getDesktop().browse(new URI(link));
-			controller_computer.log.writelogfile("Google Maps im Standardbrowser aufgerufen");
+			controller_computer.log.writelogfile("Google Maps im Standardbrowser aufgerufen" , ErrorState.INFO);
 		} 
 		catch (IOException e) {e.printStackTrace();} 
 		catch (URISyntaxException e) {e.printStackTrace();}

@@ -2,14 +2,17 @@ package View;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+
 import javax.swing.JSlider;
+
 import Controller.Controller_Computer;
+import Model.Log.ErrorState;
 
 /** Class for changing the quality of pictures (1 to 100 is possible).
 * 
 * @author Benjamin L
 * @author Lars
-* @version 27.06.2012.
+* @version 1.0
 */
 public class Quality_MouseListener implements MouseListener{
 	JSlider quality_slider;
@@ -58,7 +61,7 @@ public class Quality_MouseListener implements MouseListener{
 	 */
 	@Override
 	public void mouseReleased(MouseEvent arg0) {
-		controller_computer.gui_computer.log.writelogfile("Sent: Change quality to " + String.valueOf(quality_slider.getValue()) + ".");
+		controller_computer.gui_computer.log.writelogfile("Sent: Change quality to " + String.valueOf(quality_slider.getValue()) + "." , ErrorState.INFO);
 		controller_computer.camera_settings.send_change_quality(String.valueOf(quality_slider.getValue()));
 	}
 }

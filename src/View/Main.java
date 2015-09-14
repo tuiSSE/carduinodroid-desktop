@@ -1,8 +1,11 @@
 package View;
 
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+
 /** This is the class which includes the main method.
 * @author Benjamin L
-* @version 13.06.2012.
+* @version 1.0
 */
 public class Main {
 

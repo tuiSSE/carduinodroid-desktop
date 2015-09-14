@@ -1,0 +1,9 @@
+19.03.2015 10:56:47 [WARNING] No Rumblers found
+19.03.2015 10:57:07 [INFO] Sent: Change quality to 31.
+19.03.2015 10:57:07 [WARNING] Quality hasn't been changed
+19.03.2015 10:57:08 [INFO] Sent: Change quality to 32.
+19.03.2015 10:57:08 [WARNING] Quality hasn't been changed
+19.03.2015 10:57:10 [INFO] Connect to: 192.168.0.192
+19.03.2015 10:57:10 [INFO] Sent: Change resolution to 0.
+19.03.2015 10:57:10 [INFO] Resolution settings were sent
+19.03.2015 10:57:32 [INFO] CarDuinoDroid closed.

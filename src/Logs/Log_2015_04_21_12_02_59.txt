@@ -1,0 +1,63 @@
+21.04.2015 12:03:01 [WARNING] No Rumblers found
+21.04.2015 12:03:16 [INFO] Connect to: 141.24.108.235
+21.04.2015 12:03:16 [INFO] Sent: Change resolution to 0.
+21.04.2015 12:03:16 [INFO] Resolution settings were sent
+21.04.2015 12:03:27 [ERROR] Timeout. Please reconnect
+21.04.2015 12:05:33 [INFO] Connect to: 141.24.108.235
+21.04.2015 12:05:56 [ERROR] Timeout. Please reconnect
+21.04.2015 12:06:13 [INFO] Connect to: 141.24.108.235
+21.04.2015 12:06:14 [INFO] Sent: Change resolution to 0.
+21.04.2015 12:06:14 [INFO] Resolution settings were sent
+21.04.2015 12:08:11 [ERROR] Timeout. Please reconnect
+21.04.2015 12:08:41 [INFO] Connect to: 141.24.108.235
+21.04.2015 12:08:41 [INFO] Sent: Change resolution to 0.
+21.04.2015 12:08:41 [INFO] Resolution settings were sent
+21.04.2015 12:09:05 [INFO] Sent: Switch camera light on.
+21.04.2015 12:09:05 [INFO] Camera light was switched
+21.04.2015 12:09:07 [INFO] Sent: Switch camera light off.
+21.04.2015 12:09:07 [INFO] Camera light was switched
+21.04.2015 12:09:08 [INFO] Sent: Switch camera light on.
+21.04.2015 12:09:08 [INFO] Camera light was switched
+21.04.2015 12:09:16 [INFO] Sent: Switch camera light off.
+21.04.2015 12:09:16 [INFO] Camera light was switched
+21.04.2015 12:09:17 [INFO] Sent: Switch camera light on.
+21.04.2015 12:09:17 [INFO] Camera light was switched
+21.04.2015 12:09:20 [INFO] Sent: Switch camera light off.
+21.04.2015 12:09:20 [INFO] Camera light was switched
+21.04.2015 12:09:22 [INFO] Sent: Switch camera light on.
+21.04.2015 12:09:22 [INFO] Camera light was switched
+21.04.2015 12:09:23 [INFO] Sent: Switch camera light off.
+21.04.2015 12:09:23 [INFO] Camera light was switched
+21.04.2015 12:09:25 [INFO] Sent: Switch camera light on.
+21.04.2015 12:09:25 [INFO] Camera light was switched
+21.04.2015 12:09:28 [INFO] Sent: Switch camera light off.
+21.04.2015 12:09:28 [INFO] Camera light was switched
+21.04.2015 12:09:29 [INFO] Sent: Switch camera light on.
+21.04.2015 12:09:29 [INFO] Camera light was switched
+21.04.2015 12:10:22 [ERROR] Timeout. Please reconnect
+21.04.2015 12:16:43 [INFO] Connect to: 141.24.108.235
+21.04.2015 12:16:43 [INFO] Sent: Change resolution to 0.
+21.04.2015 12:16:43 [INFO] Resolution settings were sent
+21.04.2015 12:16:53 [ERROR] Timeout. Please reconnect
+21.04.2015 12:17:38 [INFO] Connect to: 141.24.108.235
+21.04.2015 12:17:38 [INFO] Sent: Change resolution to 0.
+21.04.2015 12:17:38 [INFO] Resolution settings were sent
+21.04.2015 12:17:54 [INFO] Sent: Switch camera light off.
+21.04.2015 12:17:54 [INFO] Camera light was switched
+21.04.2015 12:17:56 [INFO] Sent: Switch camera light on.
+21.04.2015 12:17:56 [INFO] Camera light was switched
+21.04.2015 12:17:58 [INFO] Sent: Switch camera light off.
+21.04.2015 12:17:58 [INFO] Camera light was switched
+21.04.2015 12:17:58 [INFO] Sent: Switch camera light on.
+21.04.2015 12:17:58 [INFO] Camera light was switched
+21.04.2015 12:18:00 [INFO] Sent: Switch camera light off.
+21.04.2015 12:18:00 [INFO] Camera light was switched
+21.04.2015 12:18:01 [INFO] Sound signal was sent
+21.04.2015 12:18:03 [INFO] Emergency-Stop-Modus aus!
+21.04.2015 12:18:05 [INFO] Emergency-Stop-Modus an!
+21.04.2015 12:19:36 [ERROR] Timeout. Please reconnect
+21.04.2015 12:20:04 [INFO] Connect to: 141.24.108.235
+21.04.2015 12:20:04 [INFO] Sent: Change resolution to 0.
+21.04.2015 12:20:04 [INFO] Resolution settings were sent
+21.04.2015 12:21:45 [ERROR] Timeout. Please reconnect
+21.04.2015 12:22:30 [INFO] CarDuinoDroid closed.

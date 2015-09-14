@@ -1,0 +1,12 @@
+29.04.2015 12:42:43 [WARNING] No Rumblers found
+29.04.2015 12:48:01 [INFO] Connect to: 141.24.108.157
+29.04.2015 12:48:01 [INFO] Sent: Change resolution to 0.
+29.04.2015 12:48:01 [INFO] Resolution settings were sent
+29.04.2015 12:48:35 [INFO] Emergency-Stop-Modus aus!
+29.04.2015 12:48:43 [INFO] Emergency-Stop-Modus an!
+29.04.2015 12:49:26 [INFO] Emergency-Stop-Modus aus!
+29.04.2015 12:51:15 [INFO] Sent: Change resolution to 3.
+29.04.2015 12:51:15 [INFO] Resolution settings were sent
+29.04.2015 12:51:53 [INFO] Sent: Change resolution to 4.
+29.04.2015 12:51:53 [INFO] Resolution settings were sent
+29.04.2015 12:52:13 [INFO] CarDuinoDroid closed.

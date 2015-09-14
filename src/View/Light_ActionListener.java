@@ -7,12 +7,15 @@ import javax.swing.JToggleButton;
 
 import Controller.*;
 import Model.Log;
+import Model.Log.ErrorState;
+
 
 /** Methods for working with the light toggle button.
 *
 * @author Benjamin L
 * @author Lars
-* @version 06.06.2012.
+* @author Michael S
+* @version 1.0
 */
 public class Light_ActionListener implements ActionListener{
 	Controller_Computer controller_Computer;
@@ -39,11 +42,11 @@ public class Light_ActionListener implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		
 		if (status.isSelected()){
-			log.writelogfile("Sent: Switch camera light on.");
+			log.writelogfile("Sent: Switch camera light on." , ErrorState.INFO);
 			controller_Computer.camera_settings.send_switch_light("1");
 		}
 		else{
-			log.writelogfile("Sent: Switch camera light off.");
+			log.writelogfile("Sent: Switch camera light off." , ErrorState.INFO);
 			controller_Computer.camera_settings.send_switch_light("0");
 		}
 		

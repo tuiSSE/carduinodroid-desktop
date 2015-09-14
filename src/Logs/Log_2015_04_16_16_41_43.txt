@@ -1,0 +1,9 @@
+16.04.2015 16:41:44 [WARNING] No Rumblers found
+16.04.2015 16:41:49 [INFO] Safety Modus aus!
+16.04.2015 16:41:51 [WARNING] Sound signal wasn't sent
+16.04.2015 16:41:54 [INFO] Sent: Switch camera light on.
+16.04.2015 16:41:54 [WARNING] Camera light wasn't switched
+16.04.2015 16:41:55 [INFO] Sent: Switch camera light off.
+16.04.2015 16:41:55 [WARNING] Camera light wasn't switched
+16.04.2015 16:41:56 [INFO] Safety Modus an!
+16.04.2015 16:42:01 [INFO] CarDuinoDroid closed.

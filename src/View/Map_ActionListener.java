@@ -11,7 +11,7 @@ import Controller.*;
 * 
 * @author Benjamin L
 * @author Lars
-* @version 09.06.2012.
+* @version 1.0
 */
 public class Map_ActionListener implements ActionListener{
 	Controller_Computer controller_Computer;

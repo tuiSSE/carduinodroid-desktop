@@ -1,7 +1,7 @@
 File
 Quit
 Connection
-About CarDuinoDroid
+About
 Preferences
 Light
 Camera
@@ -27,3 +27,20 @@ OK
 Changes will not be visible until restarting the program.
 quality
 Pad
+Car
+Gamepad
+Log
+Battery-Voltage
+Momentary Current
+Temperature of Engine-Control-Unit 
+Car-Battery-Level (percentage)
+Car-Battery-Level (absolute)
+Connection-State (Arduino/Android) 
+Connection-State (Android/Computer)
+Headlight On/Off
+Horn
+Emergency-Stop On/Off
+Smartphone-Battery-Level
+Advanced Settings
+https://github.com/tuiSSE/carduinodroid-wiki/wiki
+Version 1.0

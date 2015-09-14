@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 /** Methods for working with language menuitem.
 *
 * @author Benjamin L
-* @version 14.06.2012.
+* @version 1.0
 */
 public class Language_ActionListener implements ActionListener{
 	

@@ -1,0 +1,25 @@
+25.04.2015 10:16:52 [WARNING] No Rumblers found
+25.04.2015 10:17:15 [INFO] Connect to: 141.24.14.185
+25.04.2015 10:17:16 [INFO] Sent: Change resolution to 0.
+25.04.2015 10:17:16 [INFO] Resolution settings were sent
+25.04.2015 10:17:52 [INFO] Sound signal was sent
+25.04.2015 10:17:52 [INFO] Sound signal was sent
+25.04.2015 10:18:32 [INFO] Sound signal was sent
+25.04.2015 10:18:32 [INFO] Sound signal was sent
+25.04.2015 10:19:17 [INFO] Sound signal was sent
+25.04.2015 10:19:17 [INFO] Sound signal was sent
+25.04.2015 10:19:30 [INFO] Sent: Switch camera light on.
+25.04.2015 10:19:30 [INFO] Camera light was switched
+25.04.2015 10:19:30 [INFO] Sent: Switch camera light off.
+25.04.2015 10:19:30 [INFO] Camera light was switched
+25.04.2015 10:19:30 [INFO] Sent: Switch camera light on.
+25.04.2015 10:19:30 [INFO] Camera light was switched
+25.04.2015 10:19:30 [INFO] Sent: Switch camera light off.
+25.04.2015 10:19:30 [INFO] Camera light was switched
+25.04.2015 10:20:37 [INFO] Sound signal was sent
+25.04.2015 10:20:38 [INFO] Sound signal was sent
+25.04.2015 10:20:38 [INFO] Sent: Switch camera light on.
+25.04.2015 10:20:38 [INFO] Camera light was switched
+25.04.2015 10:20:39 [INFO] Sent: Switch camera light off.
+25.04.2015 10:20:39 [INFO] Camera light was switched
+25.04.2015 10:21:11 [INFO] CarDuinoDroid closed.

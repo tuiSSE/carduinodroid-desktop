@@ -1,10 +1,13 @@
 package Controller;
 
+import Model.Log.ErrorState;
+
 /**
 * methods for sending soundrecording signals
 * 
 * @author Lars Vogel
-* @version 12.06.2012
+* @author Michael S
+* @version 1.0
 */
 
 public class Soundrecording {
@@ -22,8 +25,8 @@ public class Soundrecording {
 		 */
 	public void send_start_recording(){
 		if (controller_computer.network.send_sound("2;1"))
-		{controller_computer.log.writelogfile("Recording has started");}
-		else{controller_computer.log.writelogfile("Recording signal wasn't sent");}
+		{controller_computer.log.writelogfile("Recording has started" , ErrorState.INFO);}
+		else{controller_computer.log.writelogfile("Recording signal wasn't sent" , ErrorState.WARNING);}
 	}
 	
 	// ***** Change Camera Type ***************************************
@@ -34,7 +37,7 @@ public class Soundrecording {
 			 */
 	public void send_stop_recording(){
 		if (controller_computer.network.send_sound("2;0"))
-		{controller_computer.log.writelogfile("Redording has stopped");}
-		else{controller_computer.log.writelogfile("Recording signal wasn't sent");}
+		{controller_computer.log.writelogfile("Redording has stopped" , ErrorState.INFO);}
+		else{controller_computer.log.writelogfile("Recording signal wasn't sent" , ErrorState.WARNING);}
 	}
 }

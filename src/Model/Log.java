@@ -1,5 +1,6 @@
 package Model;
 
+import java.awt.Color;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -7,12 +8,21 @@ import java.io.IOException;
 import java.util.*;
 import java.text.*;
 
+import javax.swing.text.BadLocationException;
+import javax.swing.text.Document;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.Style;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
+
+import View.Constants.ErrorState;
 import View.GUI_Computer;
 
 /**
 * methods for sending camera changes
 * @author Lars Vogel
-* @version 12.06.2012
+* @author Michael S
+* @version 1.0
 */
 
 public class Log {
@@ -22,6 +32,7 @@ public class Log {
 	Date date;
 	File file;
 	File path;
+	public enum ErrorState {ERROR, WARNING, INFO};
 	
 	// ***** GPSTrack Constructor ***************************************
 				/**	The constructor starts to write a *.txt-file with all important
@@ -50,6 +61,7 @@ public class Log {
 		try {
 			writer = new BufferedWriter(new FileWriter(file));
 		} catch (IOException e) { e.printStackTrace(); }
+		
 	}
 	
 	// ***** Write Log File ***************************************
@@ -59,15 +71,15 @@ public class Log {
 				 *
 				 *@param line Contains the string which will be include
 				 */
-	public void writelogfile(String line){
+	public void writelogfile(String line, ErrorState errorState){
 		try {
 			Date data = new Date();
 			SimpleDateFormat df = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss" );
-			String entry = df.format(data)+" "+line;
+			String entry = df.format(data)+" ["+ errorState.toString() + "] " + line;
 			writer.write(entry,0,entry.length());
 			writer.write(System.getProperty("line.separator"));
 			writer.flush();
-			write_Live_Log(entry);
+			write_Live_Log(entry, errorState);
 		} catch (IOException e) { e.printStackTrace(); }
 	}
 	
@@ -91,11 +103,29 @@ public class Log {
 		 *method put all entries at the same time in our live log
 		 *on the gui.
 		 */
-	private void write_Live_Log(String Text){
-		if(gui_computer.Live_Log != null)
-		gui_computer.Live_Log.setText(gui_computer.Live_Log.getText()+"\n"+Text);
+	private void write_Live_Log(String Text, ErrorState errorState){
+		if(gui_computer.Live_Log != null){		
+			
+			StyledDocument doc = gui_computer.Live_Log.getStyledDocument();
+			Style style = gui_computer.Live_Log.addStyle("I'm a Style", null);
+			
+			switch (errorState){
+				case ERROR:  	StyleConstants.setForeground(style, Color.red);
+								break;
+				case WARNING:	StyleConstants.setForeground(style, Color.blue);
+								break;
+				case INFO:		StyleConstants.setForeground(style, Color.black);
+								break;			
+			}			
+			
+			try {
+				doc.insertString(doc.getLength(), "\n" + Text , style);
+			} catch (BadLocationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
-
 }
 
 

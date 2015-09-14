@@ -19,7 +19,8 @@ import javax.swing.ImageIcon;
 /**
  * This class is used to update the Camera pictures on the GUI
  * @author Robin
- * 
+ * @autohor Michael S
+ * @version 1.0
  */
 public class Camera_Picture {
 
@@ -79,7 +80,7 @@ public class Camera_Picture {
         	left_pressed = ImageIO.read(new File("src/View/Icons/Icon_left_pressed.gif"));
         	right_pressed = ImageIO.read(new File("src/View/Icons/Icon_right_pressed.gif"));
         }
-        catch(IOException e){System.out.println("HIER IST EIN FEHLER.");}
+        catch(IOException e){System.out.println("Icons missing");}
 	}
 	
 	public void UpdateDirection(Boolean up, Boolean down, Boolean left, Boolean right)
@@ -129,21 +130,21 @@ public class Camera_Picture {
         g2.drawImage(work, 0, 0, newW, newH, null);
 		
 		//Integrate the Battery Level to the 'picture stream'
-		String BatteryLevel = String.valueOf(controller.packagedata.GetBatteryLevel())+" %";
-		Font f = new Font("Verdana", Font.BOLD, 20);
-		g2.setFont(f);
+//		String BatteryLevel = String.valueOf(controller.packagedata.GetBatteryLevel())+" %";
+//		Font f = new Font("Verdana", Font.BOLD, 20);
+//		g2.setFont(f);
 		
-		//Color for BatteryLevel Green>60%, 60%>=Yellow>20, Red<=20%
-		if(controller.packagedata.GetBatteryLevel()>60)
-		{
-			g2.setColor(Color.GREEN);
-		}else{
-			if(controller.packagedata.GetBatteryLevel()>20)
-			{
-				g2.setColor(Color.YELLOW);
-			}else{g2.setColor(Color.RED);}
-		}
-        g2.drawString(BatteryLevel,(tmp.getWidth()/2)-25,20);
+//		//Color for BatteryLevel Green>60%, 60%>=Yellow>20, Red<=20%
+//		if(controller.packagedata.GetBatteryLevel()>60)
+//		{
+//			g2.setColor(Color.GREEN);
+//		}else{
+//			if(controller.packagedata.GetBatteryLevel()>20)
+//			{
+//				g2.setColor(Color.YELLOW);
+//			}else{g2.setColor(Color.RED);}
+//		}
+//        g2.drawString(BatteryLevel,(tmp.getWidth()/2)-25,20);
         
         //Feedback is shown in the picture, before there were buttons but sometimes there were persons they wanted to click the old feedback
         if(up) g2.drawImage(up_pressed,ChooseWidth()-100,ChooseHeight()-100,40,40,null); //x,y,width,height

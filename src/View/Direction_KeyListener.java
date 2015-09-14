@@ -9,7 +9,9 @@ import Controller.Controller_Computer;
 * methods for working with KeyEvents and calculate direction/speed
 * 
 * @author Lars Vogel
-* @version 12.06.2012
+* @author Michael S
+* @author Daniel W
+* @version 1.0
 */
 
 public class Direction_KeyListener implements KeyListener{
@@ -53,6 +55,7 @@ public class Direction_KeyListener implements KeyListener{
 		if (key == KeyEvent.VK_RIGHT) {right=false;gui_computer.controller_Computer.car_controller.UpdateVariables(up, down, right, left);};
 		if (key == KeyEvent.VK_LEFT) {left=false;gui_computer.controller_Computer.car_controller.UpdateVariables(up, down, right, left);};
 		if (key == KeyEvent.VK_DOWN) {down=false;gui_computer.controller_Computer.car_controller.UpdateVariables(up, down, right, left);};
+		if (key == KeyEvent.VK_0) {gui_computer.speed_slider.setValue(0);}
 		if (key == KeyEvent.VK_1) {gui_computer.speed_slider.setValue(20);}
 		if (key == KeyEvent.VK_2) {gui_computer.speed_slider.setValue(40);}
 		if (key == KeyEvent.VK_3) {gui_computer.speed_slider.setValue(60);}
@@ -61,6 +64,7 @@ public class Direction_KeyListener implements KeyListener{
 		if (key == KeyEvent.VK_W) {gui_computer.angle_slider.setValue(gui_computer.angle_slider.getValue()+10);}
 		if (key == KeyEvent.VK_Q) {gui_computer.angle_slider.setValue(gui_computer.angle_slider.getValue()-10);}
 		if (key == KeyEvent.VK_SHIFT) {front=true;gui_computer.controller_Computer.car_controller.UpdateCamera(front);}
+		if (key == KeyEvent.VK_ENTER){gui_computer.connect_button.doClick();}
 	}
 
 	@Override

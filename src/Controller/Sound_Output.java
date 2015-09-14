@@ -1,10 +1,13 @@
 package Controller;
 
+import Model.Log.ErrorState;
+
 /**
 * methods for sending sound output signal
 * 
 * @author Lars Vogel
-* @version 12.06.2012
+* @author Michael S
+* @version 1.0
 */
 
 public class Sound_Output {
@@ -21,8 +24,9 @@ public class Sound_Output {
 	 * @param SoundID It is the number of sound u want to play at the android 
 	 */
 	public void send_output_soundsignal(String SoundID){
-		if (controller_computer.network.send_sound("1;"+SoundID))
-		{controller_computer.log.writelogfile("Sound signal was sent");}
-		else{controller_computer.log.writelogfile("Sound signal wasn't sent");}
+		if (controller_computer.network.send_sound("1;"+SoundID)){
+			controller_computer.log.writelogfile("Sound signal was sent" , ErrorState.INFO);}
+		else{
+			controller_computer.log.writelogfile("Sound signal wasn't sent" , ErrorState.WARNING);}
 	}
 }

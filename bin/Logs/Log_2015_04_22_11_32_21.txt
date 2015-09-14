@@ -1,0 +1,2 @@
+22.04.2015 11:32:21 [WARNING] No Rumblers found
+22.04.2015 11:32:27 [INFO] CarDuinoDroid closed.

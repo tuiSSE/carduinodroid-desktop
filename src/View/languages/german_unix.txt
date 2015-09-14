@@ -1,7 +1,7 @@
 Datei
 Beenden
 Verbindung
-Über CarDuinoDroid
+Über
 Einstellungen
 Licht
 Kamera
@@ -27,3 +27,20 @@ OK
 Die Änderungen werden erst nach dem Neustart wirksam!
 Qualität
 Pad
+Auto
+Gamepad
+Log
+Spannung des Akkus
+Momentaner Stromverbrauch
+Temperatur der Motorsteuerung
+Akkustand des Autos (prozentual)
+Akkustand des Autos (absolut)
+Verbindungsstatus (Arduino/Android)
+Verbindungsstatus (Android/Computer)
+Scheinwerfer Ein/Aus
+Hupe
+Notstopfunktion Ein/Aus
+Akkustand Smartphone
+Erweiterte Einstellungen
+https://github.com/tuiSSE/carduinodroid-wiki/wiki
+Version 1.0

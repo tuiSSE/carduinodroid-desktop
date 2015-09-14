@@ -1,10 +1,13 @@
 package Controller;
 
+import Model.Log.ErrorState;
+
 /**
 * methods for sending camera changes
 * @author Lars
 * @author Benjamin L
-* @version 12.06.2012
+* @author Michael S
+* @version 1.0
 */
 
 public class Camera_Settings {
@@ -23,9 +26,9 @@ public class Camera_Settings {
 	 * 	 */
 	public void send_change_camera(String cameratype) {
 		if (controller_computer.network.send_camera_settings("1;" + cameratype)) {
-			controller_computer.log.writelogfile("Camera was switched");
+			controller_computer.log.writelogfile("Camera was switched" , ErrorState.INFO);
 		} else {
-			controller_computer.log.writelogfile("Camera wasn't switched");
+			controller_computer.log.writelogfile("Camera wasn't switched" , ErrorState.WARNING);
 		}
 	}
 	
@@ -39,9 +42,9 @@ public class Camera_Settings {
 		 */
 	public void send_change_resolution(String setting) {
 		if (controller_computer.network.send_camera_settings("2;" + setting)) {
-			controller_computer.log.writelogfile("Resolution settings were sent");
+			controller_computer.log.writelogfile("Resolution settings were sent" , ErrorState.INFO);
 		} else {
-			controller_computer.log.writelogfile("Resolution settings weren't sent");
+			controller_computer.log.writelogfile("Resolution settings weren't sent" , ErrorState.WARNING);
 		}
 	}
 	
@@ -54,9 +57,9 @@ public class Camera_Settings {
 			 */
 	public void send_switch_light(String cameralight) { // cameralight 1 = licht an 0 = licht aus ? Lars: Lesen bevor fragen - Schau in Light_ActionListener!
 		if (controller_computer.network.send_camera_settings("3;" + cameralight)) {
-			controller_computer.log.writelogfile("Camera light was switched");
+			controller_computer.log.writelogfile("Camera light was switched" , ErrorState.INFO);
 		} else {
-			controller_computer.log.writelogfile("Camera light wasn't switched");
+			controller_computer.log.writelogfile("Camera light wasn't switched" , ErrorState.WARNING);
 		}
 	}
 	
@@ -66,9 +69,9 @@ public class Camera_Settings {
 	 */
 	public void send_change_quality(String Percent){
 		if  (controller_computer.network.send_camera_settings("4;" + Percent)) {
-			controller_computer.log.writelogfile("Quality has been changed");
+			controller_computer.log.writelogfile("Quality has been changed" , ErrorState.INFO);
 		} else {
-			controller_computer.log.writelogfile("Quality hasn't been changed");
+			controller_computer.log.writelogfile("Quality hasn't been changed" , ErrorState.WARNING);
 		}
 	}
 
