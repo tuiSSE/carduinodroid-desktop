@@ -12,11 +12,15 @@ import java.awt.image.BufferedImage;
 
 import javax.swing.ImageIcon;
 
+import Model.Log.ErrorState;
+import View.GUI_Computer;
+
 
 /**
  * This Class is responsible for the communication with the android-application
  * @author Robin
- * @version 18.06.2012
+ * @author Michael S
+ * @version 1.0
  */
 
 public class Network {
@@ -30,7 +34,7 @@ public class Network {
 	Packagedata packagedata;
 	Thread t1;
 	Thread t2;
-	
+	private boolean isClosed = false;
 	
 	
 	public Network(Packagedata n_packagedata, Camera_Picture n_camera_picture, Controller_Computer ControllerComputer)
@@ -80,9 +84,16 @@ public class Network {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		if(infosocket_picture!=true){controller_computer.log.writelogfile("Socket_Picture - Fehler beim Verbinden");}
-		if(infosocket_controller!=true){controller_computer.log.writelogfile("Socket_Controller - Fehler beim Verbinden");}
-		if(infosocket_package!=true){controller_computer.log.writelogfile("Socket_Package - Fehler beim Verbinden");}
+		if(infosocket_picture!=true){controller_computer.log.writelogfile("Socket_Picture - Fehler beim Verbinden" , ErrorState.ERROR);}
+		if(infosocket_controller!=true){controller_computer.log.writelogfile("Socket_Controller - Fehler beim Verbinden" , ErrorState.ERROR);}
+		if(infosocket_package!=true){controller_computer.log.writelogfile("Socket_Package - Fehler beim Verbinden" , ErrorState.ERROR);}
+		
+		if(infosocket_controller && infosocket_package && infosocket_picture){
+			controller_computer.gui_computer.resetStatusbar();
+			controller_computer.gui_computer.phoneConnection.setIcon(new ImageIcon(GUI_Computer.class.getResource("/View/Icons/green_point.png")));
+			controller_computer.gui_computer.tabPane.setSelectedIndex(0);
+			isClosed = false;
+		}
 	}
 	/*
 	 * 1 = controllsignal
@@ -145,6 +156,10 @@ public class Network {
 		socket_picture.close();
 		socket_package.close();
 		socket_controller.close();
+		isClosed = true;
+	}
+	public boolean isClosed(){
+		return isClosed;
 	}
 	
 	

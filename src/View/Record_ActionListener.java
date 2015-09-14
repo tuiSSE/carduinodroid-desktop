@@ -7,12 +7,14 @@ import javax.swing.JToggleButton;
 
 import Controller.*;
 import Model.Log;
+import Model.Log.ErrorState;
 
 /** Methods for working with the record toggle button.
 * 
 * @author Benjamin L
 * @author Lars
-* @version 06.06.2012.
+* @author Michael S
+* @version 1.0
 */
 public class Record_ActionListener implements ActionListener{
 	Controller_Computer controller_Computer;
@@ -38,11 +40,11 @@ public class Record_ActionListener implements ActionListener{
 	 */
 	public void actionPerformed(ActionEvent e) {
 		if (status.isSelected()){
-			log.writelogfile("Sent: Start sound recording.");
+			log.writelogfile("Sent: Start sound recording." , ErrorState.INFO);
 			controller_Computer.soundrecording.send_start_recording();
 		}
 		else{
-			log.writelogfile("Sent: Stop sound recording.");
+			log.writelogfile("Sent: Stop sound recording." , ErrorState.INFO);
 			controller_Computer.soundrecording.send_stop_recording();
 		}		
 	}

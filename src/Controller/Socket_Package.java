@@ -8,11 +8,13 @@ import java.io.OutputStreamWriter;
 import java.net.*;
 
 import Model.Log;
+import Model.Log.ErrorState;
 
 /**
  * This class is used to receive Information from the Android-Application
  * @author Robin
- * @version 18.06.2012
+ * @author Michael S
+ * @version 1.0
  */
 public class Socket_Package implements Runnable{
 	
@@ -123,7 +125,7 @@ public class Socket_Package implements Runnable{
 						{
 							if(System.currentTimeMillis() > lastpackage + 10000) //10 sec
 							{
-								network.camera_picture.controller.log.writelogfile("Timeout. Please reconnect");
+								network.camera_picture.controller.log.writelogfile("Timeout. Please reconnect" , ErrorState.ERROR);
 								network.close();
 							}
 							try {

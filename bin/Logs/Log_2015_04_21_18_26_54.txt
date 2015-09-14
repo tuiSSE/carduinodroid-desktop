@@ -1,0 +1,8 @@
+21.04.2015 18:26:55 [WARNING] No Rumblers found
+21.04.2015 18:26:59 [INFO] Connect to: 192.168.0.192
+21.04.2015 18:26:59 [INFO] Sent: Change resolution to 0.
+21.04.2015 18:26:59 [INFO] Resolution settings were sent
+21.04.2015 18:29:26 [INFO] Sent: Switch camera light on.
+21.04.2015 18:29:26 [INFO] Camera light was switched
+21.04.2015 18:29:28 [INFO] Sound signal was sent
+21.04.2015 18:30:33 [INFO] CarDuinoDroid closed.

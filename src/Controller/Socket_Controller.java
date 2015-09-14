@@ -9,7 +9,7 @@ import java.net.Socket;
 /**
  * This class is used to send Controllsignals to the Android-Application
  * @author Robin
- * @version 18.06.2012
+ * @version 1.0
  */
 
 public class Socket_Controller {
@@ -66,6 +66,7 @@ public class Socket_Controller {
 					controll.write(bufferdirection);
 					controll.newLine();
 					controll.flush();
+//					System.out.println(bufferdirection);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					System.out.println("fail");

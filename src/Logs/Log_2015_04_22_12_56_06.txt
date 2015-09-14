@@ -1,0 +1,4 @@
+22.04.2015 12:56:07 [WARNING] No Rumblers found
+22.04.2015 12:56:24 [WARNING] Camera wasn't switched
+22.04.2015 12:56:24 [WARNING] Camera wasn't switched
+22.04.2015 12:56:34 [INFO] CarDuinoDroid closed.

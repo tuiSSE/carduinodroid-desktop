@@ -8,7 +8,7 @@ import Controller.*;
 *
 * @author Benjamin L
 * @author Lars
-* @version 11.06.2012.
+* @version 1.0
 */
 public class Signal_ActionListener implements ActionListener{
 	

@@ -6,7 +6,7 @@ import View.GUI_Computer;
 /** Class to include the controller classes. 
 * 
 * @author Felix L
-* @version 17.06.2012.
+* @version 1.0
 */
 public class Controller_Computer {
 	public Log log;
@@ -32,7 +32,7 @@ public class Controller_Computer {
 		log = LOG;
 		gpstrack = gpsTrack;
 		camera_picture=new Camera_Picture(this);
-		packagedata=new Packagedata(this);
+		packagedata=new Packagedata(this, gui_computer);
 		gps_map=new GPS_Map(this);
 		network=new Network(packagedata,camera_picture,this);
 		sound_output=new Sound_Output(this);

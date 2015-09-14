@@ -11,7 +11,7 @@ import javax.swing.JDialog;
 /** Methods for working with the ok button of the language window.
 *
 * @author Benjamin L
-* @version 14.06.2012.
+* @version 1.0
 */
 public class language_ok_button_ActionListener implements ActionListener{
 	

@@ -1,0 +1,4 @@
+22.04.2015 14:35:59 [WARNING] No Rumblers found
+22.04.2015 14:36:31 [WARNING] Sound signal wasn't sent
+22.04.2015 14:36:38 [WARNING] Sound signal wasn't sent
+22.04.2015 14:39:15 [INFO] CarDuinoDroid closed.

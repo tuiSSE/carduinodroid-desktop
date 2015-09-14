@@ -5,11 +5,13 @@ import java.awt.event.ActionListener;
 
 import Controller.Controller_Computer;
 import Model.Log;
+import Model.Log.ErrorState;
 
 /** Methods for working with camera menuitems.
 * @author Benjamin L
 * @author Lars
-* @version 12.06.2012.
+* @author Michael S
+* @version 1.0
 */
 public class SwitchCameraType_ActionListener implements ActionListener{
 	Controller_Computer controller_Computer;
@@ -36,11 +38,11 @@ public class SwitchCameraType_ActionListener implements ActionListener{
 	 */
 	public void actionPerformed(ActionEvent e) {
 		if (camera) {
-			log.writelogfile("Sent: Enable frontcamera.");
+			log.writelogfile("Sent: Enable frontcamera." , ErrorState.INFO);
 			controller_Computer.camera_settings.send_change_camera("0");
 		}
 		else {
-			log.writelogfile("Sent: Enable backcamera.");
+			log.writelogfile("Sent: Enable backcamera." , ErrorState.INFO);
 			controller_Computer.camera_settings.send_change_camera("1");
 		}
 	}

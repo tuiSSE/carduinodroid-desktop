@@ -1,0 +1,41 @@
+23.04.2015 12:46:02 [WARNING] No Rumblers found
+23.04.2015 12:46:28 [INFO] Connect to: 141.24.108.118
+23.04.2015 12:46:29 [INFO] Sent: Change resolution to 0.
+23.04.2015 12:46:29 [INFO] Resolution settings were sent
+23.04.2015 12:47:12 [INFO] Sent: Switch camera light on.
+23.04.2015 12:47:12 [INFO] Camera light was switched
+23.04.2015 12:47:12 [INFO] Sent: Switch camera light off.
+23.04.2015 12:47:12 [INFO] Camera light was switched
+23.04.2015 12:47:13 [INFO] Sent: Switch camera light on.
+23.04.2015 12:47:13 [INFO] Camera light was switched
+23.04.2015 12:47:13 [INFO] Sent: Switch camera light off.
+23.04.2015 12:47:13 [INFO] Camera light was switched
+23.04.2015 12:47:34 [INFO] Sent: Switch camera light on.
+23.04.2015 12:47:34 [INFO] Camera light was switched
+23.04.2015 12:47:35 [INFO] Sent: Switch camera light off.
+23.04.2015 12:47:35 [INFO] Camera light was switched
+23.04.2015 12:48:09 [INFO] Sent: Switch camera light on.
+23.04.2015 12:48:09 [INFO] Camera light was switched
+23.04.2015 12:48:10 [INFO] Sent: Switch camera light off.
+23.04.2015 12:48:10 [INFO] Camera light was switched
+23.04.2015 12:49:51 [INFO] Sent: Switch camera light on.
+23.04.2015 12:49:51 [INFO] Camera light was switched
+23.04.2015 12:49:52 [INFO] Sent: Switch camera light off.
+23.04.2015 12:49:52 [INFO] Camera light was switched
+23.04.2015 12:49:52 [INFO] Sound signal was sent
+23.04.2015 12:50:32 [INFO] Sent: Switch camera light on.
+23.04.2015 12:50:32 [INFO] Camera light was switched
+23.04.2015 12:50:33 [INFO] Sent: Switch camera light off.
+23.04.2015 12:50:33 [INFO] Camera light was switched
+23.04.2015 12:50:44 [INFO] Sound signal was sent
+23.04.2015 12:50:44 [INFO] Sound signal was sent
+23.04.2015 12:50:44 [INFO] Sound signal was sent
+23.04.2015 12:51:27 [INFO] Sound signal was sent
+23.04.2015 12:51:27 [INFO] Sound signal was sent
+23.04.2015 12:52:33 [INFO] Sound signal was sent
+23.04.2015 12:52:34 [INFO] Sound signal was sent
+23.04.2015 12:52:56 [INFO] Sent: Switch camera light on.
+23.04.2015 12:52:56 [INFO] Camera light was switched
+23.04.2015 12:53:04 [INFO] Sent: Switch camera light off.
+23.04.2015 12:53:04 [INFO] Camera light was switched
+23.04.2015 12:56:40 [INFO] CarDuinoDroid closed.

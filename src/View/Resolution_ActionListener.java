@@ -7,11 +7,13 @@ import javax.swing.JComboBox;
 
 import Controller.*;
 import Model.Log;
+import Model.Log.ErrorState;
 
 /** Methods for working with the resolution combobox.
 * @author Benjamin L
 * @author Lars
-* @version 12.06.2012.
+* @author Michael S
+* @version 1.0
 */
 public class Resolution_ActionListener implements ActionListener{
 	Controller_Computer controller_Computer;
@@ -42,7 +44,7 @@ public class Resolution_ActionListener implements ActionListener{
 		
 		if (!controller_Computer.gui_computer.getFilled()){
 		resolution = String.valueOf(status.getSelectedIndex());
-		log.writelogfile("Sent: Change resolution to " + resolution + ".");
+		log.writelogfile("Sent: Change resolution to " + resolution + "." , ErrorState.INFO);
 		controller_Computer.camera_settings.send_change_resolution(resolution);}
 		controller_Computer.gui_computer.setFilled(false);
 	}

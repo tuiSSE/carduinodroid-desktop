@@ -9,20 +9,15 @@ import Model.Log;
 /** Methods for working with the quit menuitem.
 * @author Benjamin L
 * @author Lars
-* @version 12.06.2012.
+* @version 1.0
 */
 public class Quit_ActionListener implements ActionListener {
-	Log log;
-	GPSTrack gpstrack;
 	
-	/** 
-	 * @param LOG					Log which is used.
-	 * @param GPS_Track				Used gpstrack.
-	 */
-	public Quit_ActionListener (Log LOG, GPSTrack GPS_Track)
+	GUI_Computer gui_Computer;
+	
+	public Quit_ActionListener (GUI_Computer guiComputer)
 	{
-		log = LOG;
-		gpstrack = GPS_Track;
+		 gui_Computer = guiComputer;
 	}
 	
 	/** 
@@ -33,8 +28,6 @@ public class Quit_ActionListener implements ActionListener {
 	 * @param e			Event by pressing the quit menuitem.
 	 */
 	public void actionPerformed(ActionEvent e) {
-		gpstrack.savegpxfile();
-		log.writelogfile("CarDuinoDroid closed.");
-		System.exit(0);
+		gui_Computer.quitProcedure();
 	}
 }

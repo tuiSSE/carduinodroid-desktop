@@ -10,7 +10,7 @@ import java.text.*;
 /**
 * methods for writing a *.gpx-file
 * @author Lars Vogel
-* @version 12.06.2012
+* @version 1.0
 */
 
 public class GPSTrack {

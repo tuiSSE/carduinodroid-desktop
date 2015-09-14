@@ -1,0 +1,16 @@
+20.03.2015 17:21:19 [WARNING] No Rumblers found
+20.03.2015 17:21:31 [INFO] Connect to: 192.168.0.192
+20.03.2015 17:21:39 [ERROR] Socket_Picture - Fehler beim Verbinden
+20.03.2015 17:21:39 [INFO] Sent: Change resolution to 0.
+20.03.2015 17:21:39 [INFO] Resolution settings were sent
+20.03.2015 17:21:57 [INFO] Connect to: 192.168.0.192
+20.03.2015 17:22:07 [ERROR] Timeout. Please reconnect
+20.03.2015 17:22:07 [ERROR] Timeout. Please reconnect
+20.03.2015 17:22:12 [INFO] Connect to: 192.168.0.192
+20.03.2015 17:22:16 [ERROR] Socket_Picture - Fehler beim Verbinden
+20.03.2015 17:22:16 [ERROR] Socket_Controller - Fehler beim Verbinden
+20.03.2015 17:22:16 [ERROR] Socket_Package - Fehler beim Verbinden
+20.03.2015 17:22:23 [INFO] Connect to: 192.168.0.192
+20.03.2015 17:22:23 [INFO] Sent: Change resolution to 0.
+20.03.2015 17:22:23 [INFO] Resolution settings were sent
+20.03.2015 17:22:39 [INFO] CarDuinoDroid closed.

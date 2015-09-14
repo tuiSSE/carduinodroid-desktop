@@ -1,0 +1,135 @@
+23.04.2015 12:40:27 [WARNING] No Rumblers found
+23.04.2015 12:40:51 [INFO] Connect to: 141.24.108.118
+23.04.2015 12:40:51 [INFO] Sent: Change resolution to 0.
+23.04.2015 12:40:51 [INFO] Resolution settings were sent
+23.04.2015 12:43:32 [INFO] Emergency-Stop-Modus aus!
+23.04.2015 12:43:44 [INFO] Sound signal was sent
+23.04.2015 12:43:46 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:46 [INFO] Camera light was switched
+23.04.2015 12:43:46 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:46 [INFO] Camera light was switched
+23.04.2015 12:43:47 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:47 [INFO] Camera light was switched
+23.04.2015 12:43:47 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:47 [INFO] Camera light was switched
+23.04.2015 12:43:48 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:48 [INFO] Camera light was switched
+23.04.2015 12:43:49 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:49 [INFO] Camera light was switched
+23.04.2015 12:43:49 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:49 [INFO] Camera light was switched
+23.04.2015 12:43:50 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:50 [INFO] Camera light was switched
+23.04.2015 12:43:51 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:51 [INFO] Camera light was switched
+23.04.2015 12:43:54 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:54 [INFO] Camera light was switched
+23.04.2015 12:43:55 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:55 [INFO] Camera light was switched
+23.04.2015 12:43:55 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:55 [INFO] Camera light was switched
+23.04.2015 12:43:55 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:55 [INFO] Camera light was switched
+23.04.2015 12:43:55 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:55 [INFO] Camera light was switched
+23.04.2015 12:43:56 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:56 [INFO] Camera light was switched
+23.04.2015 12:43:56 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:56 [INFO] Camera light was switched
+23.04.2015 12:43:56 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:56 [INFO] Camera light was switched
+23.04.2015 12:43:56 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:56 [INFO] Camera light was switched
+23.04.2015 12:43:56 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:56 [INFO] Camera light was switched
+23.04.2015 12:43:56 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:56 [INFO] Camera light was switched
+23.04.2015 12:43:57 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:57 [INFO] Camera light was switched
+23.04.2015 12:43:57 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:57 [INFO] Camera light was switched
+23.04.2015 12:43:57 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:57 [INFO] Camera light was switched
+23.04.2015 12:43:57 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:57 [INFO] Camera light was switched
+23.04.2015 12:43:57 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:57 [INFO] Camera light was switched
+23.04.2015 12:43:57 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:57 [INFO] Camera light was switched
+23.04.2015 12:43:58 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:58 [INFO] Camera light was switched
+23.04.2015 12:43:59 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:59 [INFO] Camera light was switched
+23.04.2015 12:43:59 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:59 [INFO] Camera light was switched
+23.04.2015 12:43:59 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:59 [INFO] Camera light was switched
+23.04.2015 12:43:59 [INFO] Sent: Switch camera light on.
+23.04.2015 12:43:59 [INFO] Camera light was switched
+23.04.2015 12:43:59 [INFO] Sent: Switch camera light off.
+23.04.2015 12:43:59 [INFO] Camera light was switched
+23.04.2015 12:44:00 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:00 [INFO] Camera light was switched
+23.04.2015 12:44:01 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:01 [INFO] Camera light was switched
+23.04.2015 12:44:01 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:01 [INFO] Camera light was switched
+23.04.2015 12:44:01 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:01 [INFO] Camera light was switched
+23.04.2015 12:44:01 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:01 [INFO] Camera light was switched
+23.04.2015 12:44:01 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:01 [INFO] Camera light was switched
+23.04.2015 12:44:01 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:01 [INFO] Camera light was switched
+23.04.2015 12:44:01 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:01 [INFO] Camera light was switched
+23.04.2015 12:44:02 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:02 [INFO] Camera light was switched
+23.04.2015 12:44:02 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:02 [INFO] Camera light was switched
+23.04.2015 12:44:03 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:03 [INFO] Camera light was switched
+23.04.2015 12:44:03 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:03 [INFO] Camera light was switched
+23.04.2015 12:44:04 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:04 [INFO] Camera light was switched
+23.04.2015 12:44:04 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:04 [INFO] Camera light was switched
+23.04.2015 12:44:05 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:05 [INFO] Camera light was switched
+23.04.2015 12:44:05 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:05 [INFO] Camera light was switched
+23.04.2015 12:44:05 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:05 [INFO] Camera light was switched
+23.04.2015 12:44:05 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:05 [INFO] Camera light was switched
+23.04.2015 12:44:05 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:05 [INFO] Camera light was switched
+23.04.2015 12:44:05 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:05 [INFO] Camera light was switched
+23.04.2015 12:44:06 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:06 [INFO] Camera light was switched
+23.04.2015 12:44:07 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:07 [INFO] Camera light was switched
+23.04.2015 12:44:07 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:07 [INFO] Camera light was switched
+23.04.2015 12:44:08 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:08 [INFO] Camera light was switched
+23.04.2015 12:44:08 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:08 [INFO] Camera light was switched
+23.04.2015 12:44:08 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:08 [INFO] Camera light was switched
+23.04.2015 12:44:09 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:09 [INFO] Camera light was switched
+23.04.2015 12:44:09 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:09 [INFO] Camera light was switched
+23.04.2015 12:44:09 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:09 [INFO] Camera light was switched
+23.04.2015 12:44:10 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:10 [INFO] Camera light was switched
+23.04.2015 12:44:10 [INFO] Sent: Switch camera light on.
+23.04.2015 12:44:10 [INFO] Camera light was switched
+23.04.2015 12:44:10 [INFO] Sent: Switch camera light off.
+23.04.2015 12:44:10 [INFO] Camera light was switched
+23.04.2015 12:45:26 [INFO] CarDuinoDroid closed.

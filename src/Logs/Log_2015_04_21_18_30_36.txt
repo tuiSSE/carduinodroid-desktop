@@ -1,0 +1,171 @@
+21.04.2015 18:30:37 [WARNING] No Rumblers found
+21.04.2015 18:30:54 [INFO] Connect to: 192.168.0.192
+21.04.2015 18:30:54 [INFO] Sent: Change resolution to 0.
+21.04.2015 18:30:54 [INFO] Resolution settings were sent
+21.04.2015 18:31:25 [INFO] Sound signal was sent
+21.04.2015 18:31:26 [INFO] Sound signal was sent
+21.04.2015 18:31:26 [INFO] Sound signal was sent
+21.04.2015 18:31:27 [INFO] Sound signal was sent
+21.04.2015 18:31:31 [INFO] Sound signal was sent
+21.04.2015 18:31:31 [INFO] Sound signal was sent
+21.04.2015 18:31:38 [INFO] Sound signal was sent
+21.04.2015 18:31:39 [INFO] Sound signal was sent
+21.04.2015 18:31:48 [INFO] Sound signal was sent
+21.04.2015 18:31:48 [INFO] Sound signal was sent
+21.04.2015 18:31:49 [INFO] Sound signal was sent
+21.04.2015 18:31:49 [INFO] Sound signal was sent
+21.04.2015 18:31:50 [INFO] Sound signal was sent
+21.04.2015 18:31:59 [INFO] Sound signal was sent
+21.04.2015 18:32:00 [INFO] Sound signal was sent
+21.04.2015 18:32:00 [INFO] Sound signal was sent
+21.04.2015 18:32:01 [INFO] Sound signal was sent
+21.04.2015 18:32:15 [INFO] Sound signal was sent
+21.04.2015 18:32:17 [INFO] Sound signal was sent
+21.04.2015 18:32:18 [INFO] Sound signal was sent
+21.04.2015 18:32:18 [INFO] Sound signal was sent
+21.04.2015 18:32:18 [INFO] Sound signal was sent
+21.04.2015 18:32:25 [INFO] Sound signal was sent
+21.04.2015 18:32:26 [INFO] Sound signal was sent
+21.04.2015 18:32:35 [INFO] Sound signal was sent
+21.04.2015 18:32:36 [INFO] Sound signal was sent
+21.04.2015 18:32:36 [INFO] Sound signal was sent
+21.04.2015 18:32:38 [INFO] Sound signal was sent
+21.04.2015 18:32:38 [INFO] Sound signal was sent
+21.04.2015 18:32:38 [INFO] Sound signal was sent
+21.04.2015 18:32:39 [INFO] Sound signal was sent
+21.04.2015 18:32:39 [INFO] Sound signal was sent
+21.04.2015 18:32:39 [INFO] Sound signal was sent
+21.04.2015 18:32:51 [INFO] Sound signal was sent
+21.04.2015 18:32:52 [INFO] Sound signal was sent
+21.04.2015 18:32:53 [INFO] Sound signal was sent
+21.04.2015 18:32:53 [INFO] Sound signal was sent
+21.04.2015 18:32:53 [INFO] Sound signal was sent
+21.04.2015 18:32:53 [INFO] Sound signal was sent
+21.04.2015 18:32:54 [INFO] Sound signal was sent
+21.04.2015 18:32:54 [INFO] Sound signal was sent
+21.04.2015 18:32:54 [INFO] Sound signal was sent
+21.04.2015 18:32:54 [INFO] Sound signal was sent
+21.04.2015 18:32:54 [INFO] Sound signal was sent
+21.04.2015 18:32:55 [INFO] Sound signal was sent
+21.04.2015 18:32:55 [INFO] Sound signal was sent
+21.04.2015 18:32:55 [INFO] Sound signal was sent
+21.04.2015 18:32:55 [INFO] Sound signal was sent
+21.04.2015 18:32:56 [INFO] Sound signal was sent
+21.04.2015 18:32:56 [INFO] Sound signal was sent
+21.04.2015 18:32:56 [INFO] Sound signal was sent
+21.04.2015 18:32:56 [INFO] Sound signal was sent
+21.04.2015 18:32:56 [INFO] Sound signal was sent
+21.04.2015 18:32:57 [INFO] Sound signal was sent
+21.04.2015 18:32:57 [INFO] Sound signal was sent
+21.04.2015 18:32:57 [INFO] Sound signal was sent
+21.04.2015 18:32:57 [INFO] Sound signal was sent
+21.04.2015 18:32:57 [INFO] Sound signal was sent
+21.04.2015 18:32:58 [INFO] Sound signal was sent
+21.04.2015 18:32:58 [INFO] Sound signal was sent
+21.04.2015 18:32:58 [INFO] Sound signal was sent
+21.04.2015 18:32:58 [INFO] Sound signal was sent
+21.04.2015 18:32:58 [INFO] Sound signal was sent
+21.04.2015 18:32:59 [INFO] Sound signal was sent
+21.04.2015 18:32:59 [INFO] Sound signal was sent
+21.04.2015 18:32:59 [INFO] Sound signal was sent
+21.04.2015 18:32:59 [INFO] Sound signal was sent
+21.04.2015 18:32:59 [INFO] Sound signal was sent
+21.04.2015 18:33:00 [INFO] Sound signal was sent
+21.04.2015 18:33:00 [INFO] Sound signal was sent
+21.04.2015 18:33:00 [INFO] Sound signal was sent
+21.04.2015 18:33:00 [INFO] Sound signal was sent
+21.04.2015 18:33:00 [INFO] Sound signal was sent
+21.04.2015 18:33:01 [INFO] Sound signal was sent
+21.04.2015 18:33:01 [INFO] Sound signal was sent
+21.04.2015 18:33:01 [INFO] Sound signal was sent
+21.04.2015 18:33:01 [INFO] Sound signal was sent
+21.04.2015 18:33:02 [INFO] Sound signal was sent
+21.04.2015 18:33:02 [INFO] Sound signal was sent
+21.04.2015 18:33:02 [INFO] Sound signal was sent
+21.04.2015 18:33:02 [INFO] Sound signal was sent
+21.04.2015 18:33:02 [INFO] Sound signal was sent
+21.04.2015 18:33:03 [INFO] Sound signal was sent
+21.04.2015 18:33:03 [INFO] Sound signal was sent
+21.04.2015 18:33:03 [INFO] Sound signal was sent
+21.04.2015 18:33:03 [INFO] Sound signal was sent
+21.04.2015 18:33:03 [INFO] Sound signal was sent
+21.04.2015 18:33:14 [INFO] Sound signal was sent
+21.04.2015 18:33:16 [INFO] Sound signal was sent
+21.04.2015 18:33:16 [INFO] Sound signal was sent
+21.04.2015 18:33:16 [INFO] Sound signal was sent
+21.04.2015 18:33:16 [INFO] Sound signal was sent
+21.04.2015 18:33:23 [INFO] Sound signal was sent
+21.04.2015 18:33:23 [INFO] Sound signal was sent
+21.04.2015 18:33:23 [INFO] Sound signal was sent
+21.04.2015 18:33:23 [INFO] Sound signal was sent
+21.04.2015 18:33:24 [INFO] Sound signal was sent
+21.04.2015 18:33:27 [INFO] Sound signal was sent
+21.04.2015 18:33:27 [INFO] Sound signal was sent
+21.04.2015 18:33:27 [INFO] Sound signal was sent
+21.04.2015 18:33:28 [INFO] Sound signal was sent
+21.04.2015 18:33:28 [INFO] Sound signal was sent
+21.04.2015 18:33:28 [INFO] Sound signal was sent
+21.04.2015 18:33:28 [INFO] Sound signal was sent
+21.04.2015 18:33:28 [INFO] Sound signal was sent
+21.04.2015 18:33:28 [INFO] Sound signal was sent
+21.04.2015 18:33:39 [INFO] Sound signal was sent
+21.04.2015 18:33:40 [INFO] Sound signal was sent
+21.04.2015 18:33:40 [INFO] Sound signal was sent
+21.04.2015 18:33:40 [INFO] Sound signal was sent
+21.04.2015 18:34:03 [INFO] Sent: Enable backcamera.
+21.04.2015 18:34:03 [INFO] Camera was switched
+21.04.2015 18:34:04 [INFO] Sent: Change resolution to 0.
+21.04.2015 18:34:04 [INFO] Resolution settings were sent
+21.04.2015 18:34:07 [INFO] Sent: Enable frontcamera.
+21.04.2015 18:34:07 [INFO] Camera was switched
+21.04.2015 18:34:08 [INFO] Sent: Change resolution to 0.
+21.04.2015 18:34:08 [INFO] Resolution settings were sent
+21.04.2015 18:34:49 [INFO] Sound signal was sent
+21.04.2015 18:34:50 [INFO] Sound signal was sent
+21.04.2015 18:34:50 [INFO] Sound signal was sent
+21.04.2015 18:34:50 [INFO] Sound signal was sent
+21.04.2015 18:34:52 [INFO] Sound signal was sent
+21.04.2015 18:34:52 [INFO] Sound signal was sent
+21.04.2015 18:34:53 [INFO] Sound signal was sent
+21.04.2015 18:34:53 [INFO] Sound signal was sent
+21.04.2015 18:38:07 [INFO] Sent: Enable backcamera.
+21.04.2015 18:38:07 [INFO] Camera was switched
+21.04.2015 18:38:07 [INFO] Sent: Change resolution to 0.
+21.04.2015 18:38:07 [INFO] Resolution settings were sent
+21.04.2015 18:38:12 [INFO] Sent: Enable frontcamera.
+21.04.2015 18:38:12 [INFO] Camera was switched
+21.04.2015 18:38:13 [INFO] Sent: Change resolution to 0.
+21.04.2015 18:38:13 [INFO] Resolution settings were sent
+21.04.2015 18:42:21 [INFO] Sound signal was sent
+21.04.2015 18:42:22 [INFO] Sound signal was sent
+21.04.2015 18:42:38 [INFO] Sound signal was sent
+21.04.2015 18:42:38 [INFO] Sound signal was sent
+21.04.2015 18:44:03 [INFO] Sound signal was sent
+21.04.2015 18:44:04 [INFO] Sound signal was sent
+21.04.2015 18:44:40 [INFO] Sent: Switch camera light on.
+21.04.2015 18:44:40 [INFO] Camera light was switched
+21.04.2015 18:44:42 [INFO] Sent: Switch camera light off.
+21.04.2015 18:44:42 [INFO] Camera light was switched
+21.04.2015 18:48:44 [INFO] Sound signal was sent
+21.04.2015 18:48:45 [INFO] Sound signal was sent
+21.04.2015 18:49:52 [INFO] Sound signal was sent
+21.04.2015 18:53:42 [INFO] Sound signal was sent
+21.04.2015 18:53:50 [INFO] Sound signal was sent
+21.04.2015 18:53:50 [INFO] Sound signal was sent
+21.04.2015 18:54:03 [INFO] Sound signal was sent
+21.04.2015 18:54:32 [INFO] Sent: Switch camera light on.
+21.04.2015 18:54:32 [INFO] Camera light was switched
+21.04.2015 18:54:33 [INFO] Sent: Switch camera light off.
+21.04.2015 18:54:33 [INFO] Camera light was switched
+21.04.2015 18:54:34 [INFO] Sent: Switch camera light on.
+21.04.2015 18:54:34 [INFO] Camera light was switched
+21.04.2015 18:54:35 [INFO] Sent: Switch camera light off.
+21.04.2015 18:54:35 [INFO] Camera light was switched
+21.04.2015 19:14:20 [INFO] Sound signal was sent
+21.04.2015 19:14:21 [INFO] Sound signal was sent
+21.04.2015 19:14:22 [INFO] Sound signal was sent
+21.04.2015 19:31:38 [INFO] Sound signal was sent
+21.04.2015 19:31:38 [INFO] Sound signal was sent
+21.04.2015 19:31:38 [INFO] Sound signal was sent
+21.04.2015 19:32:49 [ERROR] Timeout. Please reconnect
+21.04.2015 20:02:49 [INFO] CarDuinoDroid closed.
