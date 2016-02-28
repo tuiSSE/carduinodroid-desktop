@@ -48,6 +48,7 @@ public class IP_Connection {
     	dataSocketServerDisconnected = true;
     	
 		try {
+			remoteDataSocket.shutdownOutput();
 			remoteDataSocket.close();
 			if(inData != null) inData = null;
 			if(outData != null) outData = null;
