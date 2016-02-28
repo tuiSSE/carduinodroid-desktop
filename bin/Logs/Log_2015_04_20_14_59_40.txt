@@ -1,6 +1,0 @@
-20.04.2015 14:59:42 [WARNING] No Rumblers found
-20.04.2015 15:05:28 [INFO] Connect to: 141.24.13.143
-20.04.2015 15:05:43 [ERROR] Socket_Picture - Fehler beim Verbinden
-20.04.2015 15:05:43 [ERROR] Socket_Controller - Fehler beim Verbinden
-20.04.2015 15:05:43 [ERROR] Socket_Package - Fehler beim Verbinden
-20.04.2015 15:06:30 [INFO] CarDuinoDroid closed.

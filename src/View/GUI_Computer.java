@@ -467,7 +467,7 @@ public class GUI_Computer extends JFrame{
 		panel_cockpit.add(signal_button);
 		Image signalIcon = new ImageIcon(this.getClass().getResource("/View/Icons/lautsprecher.png")).getImage().getScaledInstance(25, 25, Image.SCALE_SMOOTH);
 		signal_button.setIcon(new ImageIcon(signalIcon));
-		signal_button.addActionListener(new Signal_ActionListener(controller_Computer));
+		signal_button.addMouseListener(new Signal_ActionListener(controller_Computer));
 		signal_button.setToolTipText(Names.get(40));
 		signal_button.setFocusable(false);
 		speed_slider = new JSlider(0, 100, 20);
@@ -651,13 +651,17 @@ public class GUI_Computer extends JFrame{
 	 */
 	public void FillResolutionbox(String [] resolution_list){
 		filled=true;
+		int count = resolution_change.getItemCount();
+		int selectedItem = resolution_change.getSelectedIndex();
+		
 		resolution_change.removeAllItems();
 		for (int i = 0; i <= resolution_list.length-1; i++) {
 			filled=true;
 			resolution_change.addItem(resolution_list[i]);
 		}
 		filled=false;
-		resolution_change.setSelectedIndex(0);
+		if(count == 0) resolution_change.setSelectedIndex(resolution_list.length-1);
+		else resolution_change.setSelectedIndex(selectedItem);
 	}
 	/** Method for filling the Gamepad Combo Box.
 	 */

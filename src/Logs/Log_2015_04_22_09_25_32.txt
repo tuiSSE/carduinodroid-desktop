@@ -1,6 +1,0 @@
-22.04.2015 09:25:34 [WARNING] No Rumblers found
-22.04.2015 09:27:54 [INFO] Sent: Enable backcamera.
-22.04.2015 09:27:54 [WARNING] Camera wasn't switched
-22.04.2015 09:27:55 [INFO] Sent: Enable frontcamera.
-22.04.2015 09:27:55 [WARNING] Camera wasn't switched
-22.04.2015 09:28:32 [INFO] CarDuinoDroid closed.

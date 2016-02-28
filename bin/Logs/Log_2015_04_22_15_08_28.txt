@@ -1,7 +1,0 @@
-22.04.2015 15:08:29 [WARNING] No Rumblers found
-22.04.2015 15:08:33 [INFO] Connect to: 141.24.14.181
-22.04.2015 15:08:33 [INFO] Sent: Change resolution to 0.
-22.04.2015 15:08:33 [INFO] Resolution settings were sent
-22.04.2015 15:09:21 [INFO] Sent: Switch camera light on.
-22.04.2015 15:09:21 [INFO] Camera light was switched
-22.04.2015 15:09:51 [INFO] CarDuinoDroid closed.

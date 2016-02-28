@@ -1,9 +1,0 @@
-24.03.2015 11:39:13 [WARNING] No Rumblers found
-24.03.2015 11:42:12 [INFO] Connect to: 141.24.14.172
-24.03.2015 11:42:28 [ERROR] Socket_Picture - Fehler beim Verbinden
-24.03.2015 11:42:28 [ERROR] Socket_Controller - Fehler beim Verbinden
-24.03.2015 11:42:28 [ERROR] Socket_Package - Fehler beim Verbinden
-24.03.2015 11:43:04 [INFO] Connect to: 141.24.108.65
-24.03.2015 11:43:04 [INFO] Sent: Change resolution to 0.
-24.03.2015 11:43:04 [INFO] Resolution settings were sent
-24.03.2015 11:43:22 [INFO] CarDuinoDroid closed.

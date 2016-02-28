@@ -1,6 +1,0 @@
-23.04.2015 13:41:47 [WARNING] No Rumblers found
-23.04.2015 13:41:50 [INFO] Emergency-Stop-Modus aus!
-23.04.2015 13:41:51 [INFO] Emergency-Stop-Modus an!
-23.04.2015 13:41:53 [INFO] Emergency-Stop-Modus aus!
-23.04.2015 13:41:55 [INFO] Emergency-Stop-Modus an!
-23.04.2015 13:41:57 [INFO] CarDuinoDroid closed.

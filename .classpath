@@ -7,10 +7,11 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Program Files/Java/jre7/lib"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="carduinodroid-desktop"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/jinput.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/jinput-test.jar"/>
+	<classpathentry kind="lib" path="E:/Dokumente/Studium Uebungen/MA 2.FS/Projektseminar/carduinodroid-desktop/jinput.jar"/>
+	<classpathentry kind="lib" path="E:/Dokumente/Studium Uebungen/MA 2.FS/Projektseminar/carduinodroid-desktop/jinput-test.jar"/>
+	<classpathentry kind="lib" path="E:/Dokumente/Studium Uebungen/MA 2.FS/Projektseminar/carduinodroid-desktop/json-20160212.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

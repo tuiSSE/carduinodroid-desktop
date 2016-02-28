@@ -26,25 +26,29 @@ import View.GUI_Computer;
 public class Network {
 	
 	Controller_Computer controller_computer;
-	Socket_Picture socket_picture;
-	Socket_Package socket_package;
-	Socket_Controller socket_controller;
+	//Socket_Picture socket_picture;
+	//Socket_Package socket_package;
+	//Socket_Controller socket_controller;
 	String mobilephone_ip;
 	Camera_Picture camera_picture;
 	Packagedata packagedata;
-	Thread t1;
-	Thread t2;
+	//Thread t1;
+	//Thread t2;
 	private boolean isClosed = false;
+	
+	IP_Connection ipConnection;
 	
 	
 	public Network(Packagedata n_packagedata, Camera_Picture n_camera_picture, Controller_Computer ControllerComputer)
 	{
 		controller_computer = ControllerComputer;
-		socket_picture = new Socket_Picture(this);
-		socket_package = new Socket_Package(this);
-		socket_controller = new Socket_Controller();
+		//socket_picture = new Socket_Picture(this);
+		//socket_package = new Socket_Package(this);
+		//socket_controller = new Socket_Controller();
 		camera_picture = n_camera_picture;
 		packagedata = n_packagedata;
+		
+		ipConnection = new IP_Connection(this);
 	}
 	
 //	public Network(String ip)
@@ -64,31 +68,33 @@ public class Network {
 	 */
 	public void connect(String ipstring)
 	{
-		InetAddress ip;
-		mobilephone_ip = ipstring;
-		boolean infosocket_picture = false, infosocket_controller = false, infosocket_package=false;
+		//InetAddress ip;
+		//mobilephone_ip = ipstring;
+		//boolean infosocket_picture = false, infosocket_controller = false, infosocket_package=false;
 		
-		try {
-			ip = InetAddress.getByName(ipstring);
-			InetSocketAddress port_controll = new InetSocketAddress(ip, 12345);
-			InetSocketAddress port_package = new InetSocketAddress(ip, 12346);
-			InetSocketAddress port_picture = new InetSocketAddress(ip, 12347);
-			infosocket_picture = socket_picture.connect(port_picture);
-			infosocket_controller = socket_controller.connect(port_controll);
-			infosocket_package = socket_package.connect(port_package);
-			t1 = new Thread(socket_picture);
-			t2 = new Thread(socket_package);
-			t1.start();
-			t2.start();
-		} catch (UnknownHostException e1) {
+		//try {
+			//ip = InetAddress.getByName(ipstring);
+			//InetSocketAddress port_controll = new InetSocketAddress(ip, 12345);
+			//InetSocketAddress port_package = new InetSocketAddress(ip, 12346);
+			//InetSocketAddress port_picture = new InetSocketAddress(ip, 12347);
+			//infosocket_picture = socket_picture.connect(port_picture);
+			//infosocket_controller = socket_controller.connect(port_controll);
+			//infosocket_package = socket_package.connect(port_package);
+			//t1 = new Thread(socket_picture);
+			//t2 = new Thread(socket_package);
+			//t1.start();
+			//t2.start();
+			
+			
+		//} catch (UnknownHostException e1) {
 			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		if(infosocket_picture!=true){controller_computer.log.writelogfile("Socket_Picture - Fehler beim Verbinden" , ErrorState.ERROR);}
-		if(infosocket_controller!=true){controller_computer.log.writelogfile("Socket_Controller - Fehler beim Verbinden" , ErrorState.ERROR);}
-		if(infosocket_package!=true){controller_computer.log.writelogfile("Socket_Package - Fehler beim Verbinden" , ErrorState.ERROR);}
+		//	e1.printStackTrace();
+		//}
+		//if(infosocket_picture!=true){controller_computer.log.writelogfile("Socket_Picture - Fehler beim Verbinden" , ErrorState.ERROR);}
+		//if(infosocket_controller!=true){controller_computer.log.writelogfile("Socket_Controller - Fehler beim Verbinden" , ErrorState.ERROR);}
+		//if(infosocket_package!=true){controller_computer.log.writelogfile("Socket_Package - Fehler beim Verbinden" , ErrorState.ERROR);}
 		
-		if(infosocket_controller && infosocket_package && infosocket_picture){
+		if(ipConnection.connect(ipstring)){
 			controller_computer.gui_computer.resetStatusbar();
 			controller_computer.gui_computer.phoneConnection.setIcon(new ImageIcon(GUI_Computer.class.getResource("/View/Icons/green_point.png")));
 			controller_computer.gui_computer.tabPane.setSelectedIndex(0);
@@ -109,7 +115,8 @@ public class Network {
 	 */
 	public boolean send_controllsignal(String direction)
 	{
-		return socket_controller.send_controllsignal(direction);
+
+		return ipConnection.sendControlData(direction);
 	}
 	
 	
@@ -120,7 +127,8 @@ public class Network {
 	 */
 	public boolean send_camera_settings(String settings)
 	{
-		return socket_controller.send_camera_settings(settings);
+
+		return ipConnection.sendCameraData(settings);
 	}
 	
 	/**
@@ -130,7 +138,8 @@ public class Network {
 	 */
 	public boolean send_sound(String sound_id)
 	{
-		return socket_controller.send_sound(sound_id);
+	
+		return ipConnection.sendSoundData(sound_id);
 	}
 
 	/**
@@ -153,9 +162,10 @@ public class Network {
 	}
 
 	public void close() {
-		socket_picture.close();
-		socket_package.close();
-		socket_controller.close();
+		//socket_picture.close();
+		//socket_package.close();
+		//socket_controller.close();
+		ipConnection.close();
 		isClosed = true;
 	}
 	public boolean isClosed(){

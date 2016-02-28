@@ -178,7 +178,7 @@ public class Car_Controller {
 	private int SpeedCalculation(int speed)
 	{	
 		if(up||down)
-		return (int) ((speed/12.5)+1); //Speed divided by (100/(parts-1)) = 1-9
+		return (int) ((speed*1.26)+1); //Speed divided by (100/(parts-1)) = 1-9
 		else return (int) (0); 
 	}
 	
@@ -190,7 +190,7 @@ public class Car_Controller {
 			 */
 	private int DirectionCalculation(int angle)
 	{	
-		return (int) ((angle/14.28)+1); //Angle divided by (100/(parts-1)) = 1-8
+		return (int) ((angle*1.26)+1); 
 	}
 	
 	public void UpdateCamera(boolean Front)

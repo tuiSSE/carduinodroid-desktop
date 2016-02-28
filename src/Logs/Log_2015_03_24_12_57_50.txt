@@ -1,6 +1,0 @@
-24.03.2015 12:57:50 [WARNING] No Rumblers found
-24.03.2015 12:57:55 [INFO] Connect to: 141.24.108.65
-24.03.2015 12:57:55 [INFO] Sent: Change resolution to 0.
-24.03.2015 12:57:55 [INFO] Resolution settings were sent
-24.03.2015 12:59:13 [ERROR] Timeout. Please reconnect
-24.03.2015 12:59:22 [INFO] CarDuinoDroid closed.

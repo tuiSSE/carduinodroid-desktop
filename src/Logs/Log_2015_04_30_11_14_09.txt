@@ -1,5 +1,0 @@
-30.04.2015 11:14:09 [WARNING] No Rumblers found
-30.04.2015 11:14:14 [INFO] Connect to: 141.24.108.61
-30.04.2015 11:14:15 [INFO] Sent: Change resolution to 0.
-30.04.2015 11:14:15 [INFO] Resolution settings were sent
-30.04.2015 11:14:58 [ERROR] Timeout. Please reconnect

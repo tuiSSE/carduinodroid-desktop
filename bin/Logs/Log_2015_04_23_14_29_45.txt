@@ -1,9 +1,0 @@
-23.04.2015 14:29:46 [WARNING] No Rumblers found
-23.04.2015 14:29:55 [INFO] Emergency-Stop-Modus aus!
-23.04.2015 14:29:56 [INFO] Sent: Switch camera light on.
-23.04.2015 14:29:56 [WARNING] Camera light wasn't switched
-23.04.2015 14:29:56 [WARNING] Sound signal wasn't sent
-23.04.2015 14:29:57 [INFO] Sent: Switch camera light off.
-23.04.2015 14:29:58 [WARNING] Camera light wasn't switched
-23.04.2015 14:29:58 [INFO] Emergency-Stop-Modus an!
-23.04.2015 14:30:00 [INFO] CarDuinoDroid closed.
