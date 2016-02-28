@@ -58,8 +58,6 @@ public class IP_Connection {
     
     public Boolean connect(String serverAdress){
     	
-    	//new ClientConnection(serverAdress).start();
-    	
     	inData = null;
 		outData = null;
 		String incomingCtrlMsg = "";
@@ -175,15 +173,17 @@ public class IP_Connection {
                     if(dataSocketServerDisconnected) break;
                     receiveData(incomingDataMsg);
                 }
+                
+                network.close();
     		}catch(IOException e){
     			
     		}
     	}
     }
     
-    public synchronized boolean sendControlData(String settingData){
+    public synchronized boolean sendControlData(int speed, int steer){
     	
-    	return sendData(Constants.JSON_OBJECT.NUM_CONTROL, settingData);
+    	return sendData(Constants.JSON_OBJECT.NUM_CONTROL, speed+";"+steer);
     }
     
     public synchronized boolean sendCameraData(String settingData){

@@ -113,10 +113,10 @@ public class Network {
 	 * @return
 	 * @see Socket_Controller#send_controllsignal(String)
 	 */
-	public boolean send_controllsignal(String direction)
+	public boolean send_controllsignal(int speed, int steer)
 	{
 
-		return ipConnection.sendControlData(direction);
+		return ipConnection.sendControlData(speed, steer);
 	}
 	
 	

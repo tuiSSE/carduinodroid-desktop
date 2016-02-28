@@ -78,14 +78,23 @@ public class Car_Controller {
 				if(down){speed = 100-controller_computer.gui_computer.speedBackwardProgressBar.getValue();}
 				if(left){angle = 100-controller_computer.gui_computer.angleLeftProgressBar.getValue();}
 				if(right){angle = controller_computer.gui_computer.angleRightProgressBar.getValue();}
-				if(!right&&!left){
-					send_controlsignal(SpeedCalculation(speed),0);}
-				else{
-					send_controlsignal(SpeedCalculation(speed),DirectionCalculation(angle));}
+				
+				float speedValue=controller_computer.gui_computer.speedForwardProgressBar.getValue()-(100-controller_computer.gui_computer.speedBackwardProgressBar.getValue());
+				float steerValue=controller_computer.gui_computer.angleRightProgressBar.getValue()-(100-controller_computer.gui_computer.angleLeftProgressBar.getValue());
+				//if(down) speedValue = speed * (-1); else
+				//if(left) steerValue = angle * (-1);
+				
+				sendIpControlData((int)(1.27*speedValue),(int)(1.27*steerValue));
+				/*if(!right&&!left){
+					send_controlsignal(SpeedCalculation(speed),0);
+					
+				}else{
+					send_controlsignal(SpeedCalculation(speed),DirectionCalculation(angle));
+				}*/
 			}
 			if(!up&&!down&&!left&&!right)
 				controller_computer.camera_picture.UpdateDirection(false, false, false, false);
-			
+			//System.out.println("Front: "+controller_computer.gui_computer.speedForwardProgressBar.getValue()+" - Back: "+ (100-controller_computer.gui_computer.speedBackwardProgressBar.getValue())+ " - Right: "+controller_computer.gui_computer.angleRightProgressBar.getValue()+" - Left: "+(100-controller_computer.gui_computer.angleLeftProgressBar.getValue()));
 			//With a 200ms period the Buttons will be released, if they are not any longer pushed.
 			delay++;
 			if(delay==2){
@@ -123,13 +132,25 @@ public class Car_Controller {
 	 * variables which are already calculated and provides a feedback if 
 	 * the sending was successful.
 	 */
-	private void send_controlsignal(int speed,int angle){		
+	/*private void send_controlsignal(int speed,int angle){		
+		//System.out.println("Speed: "+speed+" - Steer: "+angle);
 		if (controller_computer.network.send_controllsignal(speed+";"+up+";"+angle+";"+right+";"+emergencyStop)){
 		 feedback_output();
 		 controller_computer.camera_picture.UpdateDirection(up, down, left, right);
 		}else{
 			controller_computer.camera_picture.UpdateDirection(false,false,false,false);
 		}
+		//System.out.println("Speed: "+speed+" - Up: "+up+" - Angle: "+angle+" - right: "+right);
+	}*/
+	
+	private void sendIpControlData(int speed, int steer){
+		
+		if(controller_computer.network.send_controllsignal(speed,steer)){
+			controller_computer.camera_picture.UpdateDirection((speed>0), (speed<0), (steer<0), (steer>0));
+		}else{
+			controller_computer.camera_picture.UpdateDirection(false,false,false,false);
+		}
+		
 	}
 	
 	// ***** Feedback Output ***************************************

@@ -177,7 +177,9 @@ public class GUI_Computer extends JFrame{
 //				gpstrack.savegpxfile();
 //				log.writelogfile("CarDuinoDroid closed.");
 //				System.exit(0);
+				controller_Computer.network.close();
 				quitProcedure();
+				
 			}
 			
 			/** Describes what happens when window is closed by pressing the cross in window.
@@ -263,6 +265,7 @@ public class GUI_Computer extends JFrame{
 		connect_button_statusbar.setToolTipText(Names.get(20));
 //		connect_button_statusbar.setText(Names.get(20));
 		connect_button_statusbar.setBounds(150, 320, 112, 23);
+		connect_button_statusbar.setFocusable(false);
 							
 		//initiate JPanels, JTabbedPane
 		tabPane = new JTabbedPane();
@@ -316,12 +319,15 @@ public class GUI_Computer extends JFrame{
 		JRadioButton Frontcamera = new JRadioButton(Names.get(7),true);
 		Frontcamera.setBounds(10, 85, 109, 23);
 		panel_camera.add(Frontcamera);
+		//Frontcamera.setFocusable(false);
 		
 		Camerachoice.add(Frontcamera);
 		JRadioButton Backcamera = new JRadioButton(Names.get(8));
 		Backcamera.setBounds(10, 111, 109, 23);
 		panel_camera.add(Backcamera);
-		
+		//Backcamera.setFocusable(false);
+
+	
 		Camerachoice.add(Backcamera);
 		
 		
@@ -351,6 +357,7 @@ public class GUI_Computer extends JFrame{
 		connect_button.setBounds(10, 107, 112, 23);
 		panel_connection.add(connect_button);
 		connect_button.setText(Names.get(20));
+		connect_button.setFocusable(false);
 		JLabel ip_label = new JLabel();
 		ip_label.setBounds(89, 51, 100, 14);
 		panel_connection.add(ip_label);

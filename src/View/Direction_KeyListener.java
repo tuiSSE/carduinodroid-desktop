@@ -63,6 +63,7 @@ public class Direction_KeyListener implements KeyListener{
 		if (key == KeyEvent.VK_5) {gui_computer.speed_slider.setValue(100);}
 		if (key == KeyEvent.VK_W) {gui_computer.angle_slider.setValue(gui_computer.angle_slider.getValue()+10);}
 		if (key == KeyEvent.VK_Q) {gui_computer.angle_slider.setValue(gui_computer.angle_slider.getValue()-10);}
+		if (key == KeyEvent.VK_SPACE) {controller_computer.sound_output.send_output_soundsignal("0");}
 		if (key == KeyEvent.VK_SHIFT) {front=true;gui_computer.controller_Computer.car_controller.UpdateCamera(front);}
 		if (key == KeyEvent.VK_ENTER){gui_computer.connect_button.doClick();}
 	}

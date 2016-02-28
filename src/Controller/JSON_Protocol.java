@@ -20,7 +20,7 @@ public class JSON_Protocol {
 	
 	private boolean isCar;
     private boolean isMobility;
-    private boolean isNetwork;
+    private boolean isFeature;
     private boolean isHardware;
     private boolean isVideo;
     private boolean isControl;
@@ -84,25 +84,34 @@ public class JSON_Protocol {
                     if(isMobility){
                         JSONObject JsonObjectMobility = jsonObject.getJSONObject(Constants.JSON_OBJECT.TAG_MOBILITY);
                         
-                        String information = "3;";
+                        String information = "1;";
+                        information += JsonObjectMobility.getInt(Constants.JSON_OBJECT.TAG_MOBILITY_MOBILE_AVAILABLE) + ";";
+                        information += JsonObjectMobility.getInt(Constants.JSON_OBJECT.TAG_MOBILITY_WLAN_AVAILABLE) + ";";
+                        information += JsonObjectMobility.getInt(Constants.JSON_OBJECT.TAG_MOBILITY_MOBILE_ACTIVE) + ";";
+                        information += JsonObjectMobility.getInt(Constants.JSON_OBJECT.TAG_MOBILITY_WLAN_ACTIVE) + ";";
+                        information += JsonObjectMobility.getString(Constants.JSON_OBJECT.TAG_MOBILITY_GPS);
                         /*carduinoDroidData.setGpsData(JsonObjectMobility.getInt(Constants.JSON_OBJECT.TAG_MOBILITY_GPS));
                         carduinoDroidData.setVibration(JsonObjectMobility.getInt(Constants.JSON_OBJECT.TAG_MOBILITY_VIBRATION));*/
                     }
                     if(isHardware){
                         JSONObject JsonObjectHardware = jsonObject.getJSONObject(Constants.JSON_OBJECT.TAG_HARDWARE);
                         
-                        String information = "2";
+                        String information = "2"; //here without ";" for the getSupportedSizedValues String
                         
                         String values = getSupportedSizedValues(JsonObjectHardware.getJSONObject(Constants.JSON_OBJECT.TAG_HARDWARE_CAMERA_RESOLUTION),
                                 JsonObjectHardware.getInt(Constants.JSON_OBJECT.TAG_HARDWARE_CAMERA_RESOLUTION_NUM));
                         
                         if(values != null) network.receive_package(information+values);
-                        //TODO give all the Resolutions to show whats possible and the ID of the actual chosen one
-                        /*carduinoDroidData.setCameraSupportedSizes(getSupportedSizedValues(JsonObjectHardware.getJSONObject(Constants.JSON_OBJECT.TAG_HARDWARE_CAMERA_RESOLUTION),
-                                JsonObjectHardware.getInt(Constants.JSON_OBJECT.TAG_HARDWARE_CAMERA_RESOLUTION_NUM)));*/
+                        
                     }
-                    if(isHardware){
-                        //TO-DO ? Maybe we can leave it out in this app because i see no value out of it
+                    if(isFeature){
+                    	JSONObject JsonObjectFeature = jsonObject.getJSONObject(Constants.JSON_OBJECT.TAG_FEATURES);
+                        
+                        String information = "3;";
+                        information += JsonObjectFeature.getDouble(Constants.JSON_OBJECT.TAG_FEATURES_VIBRATION) + ";";
+                        information += JsonObjectFeature.getInt(Constants.JSON_OBJECT.TAG_FEATURES_BATTERY_PHONE);
+                        
+                        network.receive_package(information);
                     }
                     if(isVideo){
                         JSONObject JsonObjectVideo = jsonObject.getJSONObject(Constants.JSON_OBJECT.TAG_VIDEO);
@@ -120,14 +129,7 @@ public class JSON_Protocol {
                     }
                     if(isSerial){
                         JSONObject JsonObjectSerial = jsonObject.getJSONObject(Constants.JSON_OBJECT.TAG_SERIAL);
-
-                        /*carduinoData.setSerialState(new ConnectionState(
-                                ConnectionEnum.fromInteger(JsonObjectSerial.getInt(Constants.JSON_OBJECT.TAG_SERIAL_STATUS)),
-                                JsonObjectSerial.getString(Constants.JSON_OBJECT.TAG_SERIAL_ERROR)));
-                        carduinoData.setSerialName(
-                                JsonObjectSerial.getString(Constants.JSON_OBJECT.TAG_SERIAL_NAME));
-                        carduinoData.setSerialType(
-                                SerialType.fromInteger(JsonObjectSerial.getInt(Constants.JSON_OBJECT.TAG_SERIAL_TYPE)));*/
+                        //If there are some future ideas
                     }
                     return mask;
                 }                   
@@ -145,7 +147,7 @@ public class JSON_Protocol {
 
         isCar = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_CAR);
         isMobility = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_MOBILITY);
-        isNetwork = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_NETWORK);
+        isFeature = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_FEATURES);
         isHardware = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_HARDWARE);
         isVideo = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_VIDEO);
         isControl = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_CONTROL);
@@ -153,7 +155,7 @@ public class JSON_Protocol {
         isSound = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_SOUND);
         isSerial = checkDataTypeMask(mask,Constants.JSON_OBJECT.NUM_SERIAL);
 
-        isForClient = (isCar || isMobility || isNetwork || isHardware || isVideo || isSerial);
+        isForClient = (isCar || isMobility || isFeature || isHardware || isVideo || isSerial);
         isForServer = (isControl || isCamera ||isSound);
 
         return !(isForClient&&isForServer);
@@ -196,17 +198,9 @@ public class JSON_Protocol {
             else{
                 JSONObject JsonObjectCarControl = new JSONObject();
 
-                int speed = Integer.parseInt(information[0]);
-                if(information[1].equals(true)) JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_SPEED, speed);
-                else JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_SPEED, (-1 * speed));
+                JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_SPEED, information[0]);
+                JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_STEER, information[1]);
                 
-                int steering = Integer.parseInt(information[2]);
-                if(information[3].equals(true)) JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_SPEED, steering);
-                else JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_SPEED, (-1 * steering));
-                
-                //JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_FRONT_LIGHT, carduinoData.getFrontLight());
-                //JsonObjectCarControl.put(Constants.JSON_OBJECT.TAG_CONTROL_STATUS_LED, carduinoData.getStatusLed());
-
                 JsonObjectData.put(Constants.JSON_OBJECT.TAG_CONTROL, JsonObjectCarControl);
             }
         }
